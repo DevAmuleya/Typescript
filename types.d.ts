@@ -36,8 +36,8 @@ export interface BookParams {
 }
 
 export interface BorrowBookParams {
-  bookId: string | number;
   userId: string;
+  bookId: string;
 }
 
 export interface booklistProps {
